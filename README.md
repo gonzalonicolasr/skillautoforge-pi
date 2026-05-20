@@ -2,6 +2,18 @@
 
 > The skill auto-learning loop pi is missing. pi already stores, surfaces, and loads skills — this adds the behavioral loop: distill a reusable skill after a hard task, refine one that proved wrong.
 
+<div align="center">
+
+[![npm](https://img.shields.io/npm/v/@gonrocca/skillautoforge-pi?color=af8aff&label=npm)](https://www.npmjs.com/package/@gonrocca/skillautoforge-pi) [![repo](https://img.shields.io/badge/repo-github-7497ff?logo=github&logoColor=white)](https://github.com/gonzalonicolasr/skillautoforge-pi) [![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](https://discord.gg/aNFCZBZVT3) [![license](https://img.shields.io/npm/l/@gonrocca/skillautoforge-pi?color=eebe5c)](./LICENSE)
+
+### 💬 Join the community
+
+Questions, ideas, or want to debate skills & agent design? Come hang out:
+
+[![Join the Discord](https://img.shields.io/badge/Discord-join%20the%20chat-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/aNFCZBZVT3)
+
+</div>
+
 ---
 
 skillautoforge-pi is a pi ([pi.dev](https://pi.dev)) package. It does **not**

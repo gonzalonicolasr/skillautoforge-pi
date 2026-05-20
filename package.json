@@ -1,6 +1,6 @@
 {
   "name": "@gonrocca/skillautoforge-pi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "skillautoforge-pi — an installable pi (pi.dev) package that adds the skill auto-learning loop pi is missing. pi already stores, surfaces (progressive disclosure), and loads skills; this package adds the behavioral loop: a skill_save tool plus prompt guidelines that distill a reusable skill after a hard task and refine one that proved wrong, written deterministically into pi's own skill library. Inspired by Hermes Agent's skill loop.",
   "type": "module",
   "keywords": [
