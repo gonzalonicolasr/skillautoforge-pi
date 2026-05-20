@@ -1,0 +1,46 @@
+{
+  "name": "@gonrocca/skillautoforge-pi",
+  "version": "0.1.0",
+  "description": "skillautoforge-pi — an installable pi (pi.dev) package that adds the skill auto-learning loop pi is missing. pi already stores, surfaces (progressive disclosure), and loads skills; this package adds the behavioral loop: a skill_save tool plus prompt guidelines that distill a reusable skill after a hard task and refine one that proved wrong, written deterministically into pi's own skill library. Inspired by Hermes Agent's skill loop.",
+  "type": "module",
+  "keywords": [
+    "pi",
+    "pi-package",
+    "pi-extension",
+    "skills",
+    "auto-learning",
+    "skill-forge",
+    "ai-coding-agent"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/skillautoforge.ts"
+    ]
+  },
+  "files": [
+    "extensions/skillautoforge.ts",
+    "extensions/skill-write.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test --experimental-strip-types",
+    "prepublishOnly": "node --test --experimental-strip-types"
+  },
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "author": "Gonzalo Rocca",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalonicolasr/skillautoforge-pi.git"
+  },
+  "homepage": "https://github.com/gonzalonicolasr/skillautoforge-pi#readme",
+  "bugs": {
+    "url": "https://github.com/gonzalonicolasr/skillautoforge-pi/issues"
+  }
+}
