@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet" />
+<style>
+  html, body { margin: 0; padding: 0; }
+  body {
+    width: 720px; height: 340px;
+    background: #141420;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    position: relative; overflow: hidden;
+    font-family: "VT323", monospace;
+  }
+  /* thin bright purple line near the top, like the ZERO banner */
+  .topline {
+    position: absolute; top: 18px; left: 36px; right: 36px; height: 4px;
+    background: linear-gradient(90deg, #6b4dff, #b9a3ff, #6b4dff);
+    box-shadow: 0 0 10px rgba(139,108,255,.6);
+  }
+  .wordmark {
+    font-family: "Press Start 2P", monospace;
+    font-size: 52px;
+    letter-spacing: 2px;
+    background: linear-gradient(180deg, #c9b6ff 0%, #8a6aff 55%, #7c5cff 100%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent; color: transparent;
+    /* blocky 3D pixel drop shadow in deep purple */
+    filter: drop-shadow(3px 3px 0 #4a3a8a) drop-shadow(6px 6px 0 #2c2350);
+    margin: 0 0 26px 0;
+  }
+  .tagline {
+    font-family: "VT323", monospace;
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #8a85a8;
+    white-space: nowrap;
+  }
+  .tagline .label { color: #a78bff; font-weight: 700; }
+  .tagline .arrow { color: #6b5fa0; padding: 0 4px; }
+</style>
+</head>
+<body>
+  <div class="topline"></div>
+  <div class="wordmark">SKILLFORGE</div>
+  <div class="tagline"><span class="label">SKILLFORGE</span>&nbsp;&nbsp;&nbsp;distill <span class="arrow">&rarr;</span> store <span class="arrow">&rarr;</span> surface <span class="arrow">&rarr;</span> refine</div>
+</body>
+</html>
